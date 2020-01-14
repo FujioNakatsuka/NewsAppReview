@@ -13,6 +13,7 @@
 		8D569CBA23CE66C800A260BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D569CB823CE66C800A260BB /* Main.storyboard */; };
 		8D569CBC23CE66C900A260BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D569CBB23CE66C900A260BB /* Assets.xcassets */; };
 		8D569CBF23CE66C900A260BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D569CBD23CE66C900A260BB /* LaunchScreen.storyboard */; };
+		8D569CC723CE6F4B00A260BB /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D569CC623CE6F4B00A260BB /* NewsItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D569CBB23CE66C900A260BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D569CBE23CE66C900A260BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D569CC023CE66C900A260BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D569CC623CE6F4B00A260BB /* NewsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8D569CBB23CE66C900A260BB /* Assets.xcassets */,
 				8D569CBD23CE66C900A260BB /* LaunchScreen.storyboard */,
 				8D569CC023CE66C900A260BB /* Info.plist */,
+				8D569CC623CE6F4B00A260BB /* NewsItems.swift */,
 			);
 			path = NewsAppReview;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D569CB723CE66C800A260BB /* ViewController.swift in Sources */,
+				8D569CC723CE6F4B00A260BB /* NewsItems.swift in Sources */,
 				8D569CB323CE66C800A260BB /* AppDelegate.swift in Sources */,
 				8D569CB523CE66C800A260BB /* SceneDelegate.swift in Sources */,
 			);
